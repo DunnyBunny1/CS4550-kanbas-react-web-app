@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+# Node modules contains compiled binary code of installed libs (dependencies)
+# Whenever we re-run the installation script, it will scrap the node modules
 /node_modules
 /.pnp
 .pnp.js
